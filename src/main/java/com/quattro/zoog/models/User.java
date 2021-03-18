@@ -1,4 +1,4 @@
-package com.quattro.springjwt.models;
+package com.quattro.zoog.models;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package com.quattro.springjwt;
+package com.quattro.zoog;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

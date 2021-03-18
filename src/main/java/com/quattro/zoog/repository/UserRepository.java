@@ -1,11 +1,11 @@
-package com.quattro.springjwt.repository;
+package com.quattro.zoog.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.quattro.springjwt.models.User;
+import com.quattro.zoog.models.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

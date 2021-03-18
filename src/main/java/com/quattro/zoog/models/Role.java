@@ -1,4 +1,4 @@
-package com.quattro.springjwt.models;
+package com.quattro.zoog.models;
 
 import javax.persistence.*;
 

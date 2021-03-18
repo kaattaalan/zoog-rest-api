@@ -1,4 +1,4 @@
-package com.quattro.springjwt.controllers;
+package com.quattro.zoog.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.quattro.springjwt.models.ERole;
-import com.quattro.springjwt.models.Role;
-import com.quattro.springjwt.models.User;
-import com.quattro.springjwt.payload.request.LoginRequest;
-import com.quattro.springjwt.payload.request.SignupRequest;
-import com.quattro.springjwt.payload.response.JwtResponse;
-import com.quattro.springjwt.payload.response.MessageResponse;
-import com.quattro.springjwt.repository.RoleRepository;
-import com.quattro.springjwt.repository.UserRepository;
-import com.quattro.springjwt.security.jwt.JwtUtils;
-import com.quattro.springjwt.security.services.UserDetailsImpl;
+import com.quattro.zoog.models.ERole;
+import com.quattro.zoog.models.Role;
+import com.quattro.zoog.models.User;
+import com.quattro.zoog.payload.request.LoginRequest;
+import com.quattro.zoog.payload.request.SignupRequest;
+import com.quattro.zoog.payload.response.JwtResponse;
+import com.quattro.zoog.payload.response.MessageResponse;
+import com.quattro.zoog.repository.RoleRepository;
+import com.quattro.zoog.repository.UserRepository;
+import com.quattro.zoog.security.jwt.JwtUtils;
+import com.quattro.zoog.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

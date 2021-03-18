@@ -1,4 +1,4 @@
-package com.quattro.springjwt.security.services;
+package com.quattro.zoog.security.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.quattro.springjwt.models.User;
-import com.quattro.springjwt.repository.UserRepository;
+import com.quattro.zoog.models.User;
+import com.quattro.zoog.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

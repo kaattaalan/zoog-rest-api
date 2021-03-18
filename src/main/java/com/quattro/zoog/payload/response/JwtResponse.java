@@ -1,4 +1,4 @@
-package com.quattro.springjwt.payload.response;
+package com.quattro.zoog.payload.response;
 
 import java.util.List;
 

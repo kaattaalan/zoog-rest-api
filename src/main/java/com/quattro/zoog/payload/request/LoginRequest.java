@@ -1,4 +1,4 @@
-package com.quattro.springjwt.payload.request;
+package com.quattro.zoog.payload.request;
 
 import javax.validation.constraints.NotBlank;
 

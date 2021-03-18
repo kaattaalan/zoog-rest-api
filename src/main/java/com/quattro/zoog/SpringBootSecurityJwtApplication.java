@@ -1,4 +1,4 @@
-package com.quattro.springjwt;
+package com.quattro.zoog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

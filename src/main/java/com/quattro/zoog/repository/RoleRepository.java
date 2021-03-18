@@ -1,12 +1,12 @@
-package com.quattro.springjwt.repository;
+package com.quattro.zoog.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.quattro.springjwt.models.ERole;
-import com.quattro.springjwt.models.Role;
+import com.quattro.zoog.models.ERole;
+import com.quattro.zoog.models.Role;
 
 @Repository
 public interface RoleRepository extends JpaRepository<Role, Long> {

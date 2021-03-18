@@ -1,4 +1,4 @@
-package com.quattro.springjwt.security.jwt;
+package com.quattro.zoog.security.jwt;
 
 import java.io.IOException;
 

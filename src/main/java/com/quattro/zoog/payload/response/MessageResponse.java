@@ -1,4 +1,4 @@
-package com.quattro.springjwt.payload.response;
+package com.quattro.zoog.payload.response;
 
 public class MessageResponse {
 	private String message;

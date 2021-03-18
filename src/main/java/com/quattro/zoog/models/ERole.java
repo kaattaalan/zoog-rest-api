@@ -1,4 +1,4 @@
-package com.quattro.springjwt.models;
+package com.quattro.zoog.models;
 
 public enum ERole {
 	ROLE_USER,

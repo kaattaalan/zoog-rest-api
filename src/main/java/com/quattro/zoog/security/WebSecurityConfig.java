@@ -1,4 +1,4 @@
-package com.quattro.springjwt.security;
+package com.quattro.zoog.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,9 +14,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.quattro.springjwt.security.jwt.AuthEntryPointJwt;
-import com.quattro.springjwt.security.jwt.AuthTokenFilter;
-import com.quattro.springjwt.security.services.UserDetailsServiceImpl;
+import com.quattro.zoog.security.jwt.AuthEntryPointJwt;
+import com.quattro.zoog.security.jwt.AuthTokenFilter;
+import com.quattro.zoog.security.services.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity

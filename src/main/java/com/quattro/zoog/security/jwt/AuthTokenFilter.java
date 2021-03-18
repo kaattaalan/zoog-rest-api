@@ -1,4 +1,4 @@
-package com.quattro.springjwt.security.jwt;
+package com.quattro.zoog.security.jwt;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.quattro.springjwt.security.services.UserDetailsServiceImpl;
+import com.quattro.zoog.security.services.UserDetailsServiceImpl;
 
 public class AuthTokenFilter extends OncePerRequestFilter {
 	@Autowired
